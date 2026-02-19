@@ -1,3 +1,4 @@
+bash
 #!/bin/bash
 read -p "Enter input name" input
 mkdir attendance_tracker_$input
@@ -61,7 +62,7 @@ echo "Running health check"
 if python3 --version >/dev/null 2?&1; then
 echo "Python3 is installed."
 else
-echo "Warning:Pythin3 is not installed."
+echo "Warning: Python3 is not installed."
 fi
 
 echo "Health Check Complete."
